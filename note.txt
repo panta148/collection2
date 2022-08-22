@@ -1,0 +1,8 @@
+<div class="col-sm-12 col-md-3">
+
+            <h3 class="text-muted">Room status:{{w.status}}</h3>
+
+            <a href="{% url 'complete' w.id %}" type="button" class="{{unclick}}">Payment
+                Successfully</a>
+
+        </div>
